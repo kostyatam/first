@@ -1,9 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
 .profile {
-	
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
 }
 
 .image {
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.name {
+	font-size: 18px;
+	color: #33363b;
 }
 
 .profession {
@@ -11,5 +34,5 @@
 }
 
 .description {
-	
+
 }
